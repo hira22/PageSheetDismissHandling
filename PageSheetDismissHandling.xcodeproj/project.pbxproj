@@ -15,6 +15,7 @@
 		B64F1E0C2387B68B00976879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64F1E0A2387B68B00976879 /* LaunchScreen.storyboard */; };
 		B64F1E172387B68B00976879 /* PageSheetDismissHandlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F1E162387B68B00976879 /* PageSheetDismissHandlingTests.swift */; };
 		B64F1E222387B68B00976879 /* PageSheetDismissHandlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F1E212387B68B00976879 /* PageSheetDismissHandlingUITests.swift */; };
+		B64F1E302387B79300976879 /* PageSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F1E2F2387B79300976879 /* PageSheetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B64F1E1D2387B68B00976879 /* PageSheetDismissHandlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageSheetDismissHandlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64F1E212387B68B00976879 /* PageSheetDismissHandlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSheetDismissHandlingUITests.swift; sourceTree = "<group>"; };
 		B64F1E232387B68B00976879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64F1E2F2387B79300976879 /* PageSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSheetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				B64F1DFF2387B68900976879 /* AppDelegate.swift */,
 				B64F1E012387B68900976879 /* SceneDelegate.swift */,
 				B64F1E032387B68900976879 /* ViewController.swift */,
+				B64F1E2F2387B79300976879 /* PageSheetViewController.swift */,
 				B64F1E052387B68900976879 /* Main.storyboard */,
 				B64F1E082387B68B00976879 /* Assets.xcassets */,
 				B64F1E0A2387B68B00976879 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B64F1E042387B68900976879 /* ViewController.swift in Sources */,
+				B64F1E302387B79300976879 /* PageSheetViewController.swift in Sources */,
 				B64F1E002387B68900976879 /* AppDelegate.swift in Sources */,
 				B64F1E022387B68900976879 /* SceneDelegate.swift in Sources */,
 			);
